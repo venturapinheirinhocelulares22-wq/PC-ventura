@@ -1,0 +1,6 @@
+{
+  "name": "Pinheirinho Celulares",
+  "description": "Landing page de aquisição de clientes e pré-análise de crédito para financiamento no boleto na rede Pinheirinho Celulares.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
