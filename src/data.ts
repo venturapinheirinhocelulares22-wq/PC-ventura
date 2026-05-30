@@ -5,6 +5,31 @@
 
 import { Store, Review } from './types';
 
+// Import local store images (Request 4 reverse ordered mapping)
+import storeImg0 from './assets/images/regenerated_image_1780162263222.jpg';
+import storeImg1 from './assets/images/regenerated_image_1780162262396.jpg';
+import storeImg2 from './assets/images/regenerated_image_1780162261287.jpg';
+import storeImg3 from './assets/images/regenerated_image_1780162260623.jpg';
+import storeImg4 from './assets/images/regenerated_image_1780162259479.jpg';
+import storeImg5 from './assets/images/regenerated_image_1780162258867.jpg';
+import storeImg6 from './assets/images/regenerated_image_1780162257777.jpg';
+import storeImg7 from './assets/images/regenerated_image_1780162257183.jpg';
+import storeImg8 from './assets/images/regenerated_image_1780162256179.jpg';
+import storeImg9 from './assets/images/regenerated_image_1780162255531.jpg';
+import storeImg10 from './assets/images/regenerated_image_1780162254962.jpg';
+import storeImg11 from './assets/images/regenerated_image_1780162253362.jpg';
+import storeImg12 from './assets/images/regenerated_image_1780162252732.jpg';
+import storeImg13 from './assets/images/regenerated_image_1780162252167.jpg';
+import storeImg14 from './assets/images/regenerated_image_1780162251232.jpg';
+import storeImg15 from './assets/images/regenerated_image_1780162250089.jpg';
+import storeImg16 from './assets/images/regenerated_image_1780162249310.jpg';
+
+// Import local client review images (Request 5 chronological mapping)
+import revImg0 from './assets/images/regenerated_image_1780162435740.jpg';
+import revImg1 from './assets/images/regenerated_image_1780162436926.jpg';
+import revImg2 from './assets/images/regenerated_image_1780162443597.jpg';
+import revImg3 from './assets/images/regenerated_image_1780162445194.jpg';
+
 // Pinheirinho Celulares official stores in Curitiba Metropolitan key locations
 export const STORES_DATA: Store[] = [
   {
@@ -15,7 +40,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sábado — 9h00 às 19h00 | Domingo — Fechado',
     whatsapp: '41991573958',
     whatsappUrl: 'https://wa.me/5541991573958?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+na+unidade+S%C3%ADtio+Cercado+/+Osternack%21',
-    imageUrl: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg0
   },
   {
     id: 'sitio-cercado-sao-jose',
@@ -25,7 +50,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sexta — 9h00 às 19h00 | Sábado — 9h00 às 18h00',
     whatsapp: '41991573958',
     whatsappUrl: 'https://wa.me/5541991573958?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+na+unidade+S%C3%ADtio+Cercado%21',
-    imageUrl: 'https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&q=80&w=600',
+    imageUrl: storeImg1,
     phone: '(41) 3308-1789'
   },
   {
@@ -36,7 +61,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sexta — 9h00 às 19h00 | Sábado — 9h00 às 18h00',
     whatsapp: '41933008539',
     whatsappUrl: 'https://wa.me/5541933008539?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+no+Shopping+Pinheirinho%21',
-    imageUrl: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=600',
+    imageUrl: storeImg2,
     phone: '(41) 3247-0032'
   },
   {
@@ -47,7 +72,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sábado — 10h00 às 22h00 | Domingo — 12h00 às 20h00',
     whatsapp: '41999146774',
     whatsappUrl: 'https://wa.me/5541999146774?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+no+Shopping+Jardim+das+Am%C3%A9ricas%21',
-    imageUrl: 'https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg3
   },
   {
     id: 'praca-rui-barbosa',
@@ -57,7 +82,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sexta — 9h00 às 19h00 | Sábado — 9h00 às 18h00',
     whatsapp: '41984689154',
     whatsappUrl: 'https://wa.me/5541984689154?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+na+Pra%C3%A7a+Rui+Barbosa%21',
-    imageUrl: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg4
   },
   {
     id: 'shopping-ventura-loja-404',
@@ -67,7 +92,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sábado — 10h00 às 22h00 | Domingo — 12h00 às 20h00',
     whatsapp: '41920025785',
     whatsappUrl: 'https://wa.me/5541920025785?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+no+Shopping+Ventura%21',
-    imageUrl: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg5
   },
   {
     id: 'nicola-pellanda',
@@ -77,7 +102,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sexta — 9h00 às 19h00 | Sábado — 9h00 às 18h00',
     whatsapp: '41985022602',
     whatsappUrl: 'https://wa.me/5541985022602?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+na+Nicola+Pellanda%21',
-    imageUrl: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=600',
+    imageUrl: storeImg6,
     phone: '(41) 3049-5184'
   },
   {
@@ -88,7 +113,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sábado — 08h00 às 22h00 | Domingo e Feriados— 08h00 às 20h00',
     whatsapp: '41920036347',
     whatsappUrl: 'https://wa.me/5541920036347?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+no+Muffato+Port%C3%A3o%21',
-    imageUrl: 'https://images.unsplash.com/photo-1580870013141-3b13c5100f1e?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg7
   },
   {
     id: 'muffato-max-roca-grande',
@@ -98,7 +123,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sábado — 08h00 às 22h00 | Domingo e Feriados— 08h00 às 20h00',
     whatsapp: '41920037081',
     whatsappUrl: 'https://wa.me/5541920037081?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+no+Muffato+Max+Ro%C3%A7a+Grande%21',
-    imageUrl: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg8
   },
   {
     id: 'muffato-max-pinheirinho',
@@ -108,7 +133,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sábado — 08h00 às 22h00 | Domingo e Feriados— 08h00 às 20h00',
     whatsapp: '41998931004',
     whatsappUrl: 'https://wa.me/5541998931004?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+no+Muffato+Max+Pinheirinho%21',
-    imageUrl: 'https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&q=80&w=600',
+    imageUrl: storeImg9,
     phone: '(41) 3153-2854'
   },
   {
@@ -119,7 +144,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sábado — 08h00 às 22h00 | Domingo e Feriados— 08h00 às 20h00',
     whatsapp: '41995098857',
     whatsappUrl: 'https://wa.me/5541995098857?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+no+Muffato+Max+Pinhais%21',
-    imageUrl: 'https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg10
   },
   {
     id: 'muffato-max-vila-hauer',
@@ -129,7 +154,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sábado — 08h00 às 22h00 | Domingo e Feriados— 08h00 às 20h00',
     whatsapp: '41991824465',
     whatsappUrl: 'https://wa.me/5541991824465?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+no+Muffato+Max+-+Vila+Hauer%21',
-    imageUrl: 'https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg11
   },
   {
     id: 'muffato-max-taruma',
@@ -139,7 +164,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sábado — 09h00 às 19h00 | Domingo — 09h00 às 19h00',
     whatsapp: '41999326893',
     whatsappUrl: 'https://wa.me/5541999326893?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+no+Muffato+Max+-+Tarum%C3%A3%21',
-    imageUrl: 'https://images.unsplash.com/photo-1534452285541-140740a3f9e3?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg12
   },
   {
     id: 'matriz',
@@ -149,7 +174,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sexta — 9h00 às 19h00 | Sábado — 9h00 às 18h00',
     whatsapp: '41992678941',
     whatsappUrl: 'https://wa.me/5541992678941?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+na+Matriz%21',
-    imageUrl: 'https://images.unsplash.com/photo-1563013544-824ae1d704d3?auto=format&fit=crop&q=80&w=600',
+    imageUrl: storeImg13,
     phone: '(41) 3268-3091'
   },
   {
@@ -160,7 +185,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sexta — 9h00 às 19h00 | Sábado — 9h00 às 18h00',
     whatsapp: '41920025293',
     whatsappUrl: 'https://wa.me/5541920025293?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+na+Loja+Xaxim%21',
-    imageUrl: 'https://images.unsplash.com/photo-1515706886582-54c73c5eaf41?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg14
   },
   {
     id: 'loja-izaac',
@@ -170,7 +195,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sexta — 9h00 às 19h00 | Sábado — 9h00 às 18h00',
     whatsapp: '41995652823',
     whatsappUrl: 'https://wa.me/5541995652823?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+na+Loja+Izaac%21',
-    imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=600',
+    imageUrl: storeImg15,
     phone: '(41) 3264-9168'
   },
   {
@@ -181,7 +206,7 @@ export const STORES_DATA: Store[] = [
     hours: 'Segunda à Sábado — 9h00 às 18h00 | Domingo — Fechado',
     whatsapp: '41996209177',
     whatsappUrl: 'https://wa.me/5541996209177?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+atendimento+na+unidade+Centro+S%C3%A3o+Jos%C3%A9+dos+Pinhais%21',
-    imageUrl: 'https://images.unsplash.com/photo-1473187983305-f615310e7daa?auto=format&fit=crop&q=80&w=600'
+    imageUrl: storeImg16
   }
 ];
 
@@ -192,7 +217,7 @@ export const REVIEWS_DATA: Review[] = [
     clientName: 'Matheus Henrique',
     text: 'Fiz minha pré-análise online de manhã, agendei na Matriz Pinheirinho e saí de tarde com meu iPhone 15 Pro Max financiado sem nenhuma complicação! Recomendo muito!',
     stars: 5,
-    imageUrl: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=400',
+    imageUrl: revImg0,
     tag: 'Cliente Matriz'
   },
   {
@@ -200,7 +225,7 @@ export const REVIEWS_DATA: Review[] = [
     clientName: 'Ana Cláudia Silva',
     text: 'Atendimento nota mil! O pessoal tirou todas as minhas dúvidas e o parcelamento no boleto coube perfeitamente no meu orçamento. O melhor suporte de Curitiba!',
     stars: 5,
-    imageUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400',
+    imageUrl: revImg1,
     tag: 'Cliente Ventura Shopping'
   },
   {
@@ -208,7 +233,7 @@ export const REVIEWS_DATA: Review[] = [
     clientName: 'Ronaldo Peixoto',
     text: 'Sem burocracia nenhuma. Achei que não seria aprovado por ter score baixo, mas eles facilitam de verdade. Levei meu Motorola Zero Km para casa no mesmo dia!',
     stars: 5,
-    imageUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400',
+    imageUrl: revImg2,
     tag: 'Cliente Sítio Cercado'
   },
   {
@@ -216,7 +241,7 @@ export const REVIEWS_DATA: Review[] = [
     clientName: 'Carla Vasconcellos',
     text: 'O atendimento no Whatsapp foi super ágil depois da pré-análise e o agendamento evitou qualquer fila. Já é o terceiro celular que nossa família compra aqui!',
     stars: 5,
-    imageUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400',
+    imageUrl: revImg3,
     tag: 'Cliente Jardim das Américas'
   }
 ];

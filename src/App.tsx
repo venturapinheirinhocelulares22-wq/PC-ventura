@@ -29,6 +29,10 @@ import { motion, AnimatePresence } from 'motion/react';
 import { STORES_DATA, REVIEWS_DATA } from './data';
 import { Store, LeadFormData } from './types';
 
+// Import local page images to enable base64 inline compiler support
+import heroStoreFacade from './assets/images/hero_store_banner_1780162677924.png';
+import ambassadorTeam from './assets/images/regenerated_image_1780161351194.png';
+
 export default function App() {
   // Navigation / screen state:
   // 'landing' -> The direct conversion landing page
@@ -250,7 +254,7 @@ export default function App() {
             <div className="relative w-full h-[320px] md:h-[420px] lg:h-[480px] bg-slate-900 overflow-hidden flex items-end">
               {/* Backing Realist store physical facade image provided by client (representing real shop trust) */}
               <img 
-                src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&q=80&w=1620" 
+                src={heroStoreFacade} 
                 alt="Fachada Pinheirinho Celulares" 
                 className="absolute inset-0 w-full h-full object-cover object-center opacity-70 scale-105 pointer-events-none"
                 referrerPolicy="no-referrer"
@@ -314,11 +318,8 @@ export default function App() {
                   </div>
 
                   {/* Highlight pills */}
-                  <div className="flex flex-wrap items-center justify-center gap-3 shrink-0">
-                    <span className="px-3.5 py-1.5 rounded-lg bg-teal-900/35 border border-white/20 text-white font-extrabold text-xs uppercase tracking-wide">
-                      ⚡ ZERO Entrada Possível
-                    </span>
-                    <span className="px-3.5 py-1.5 rounded-lg bg-teal-900/35 border border-white/20 text-white font-extrabold text-xs uppercase tracking-wide">
+                  <div className="flex items-center justify-center shrink-0 w-full md:w-auto">
+                    <span className="px-4 py-2 rounded-xl bg-teal-900/40 border border-white/25 text-white font-extrabold text-xs md:text-sm uppercase tracking-wider text-center">
                       💳 Boleto em até 24x
                     </span>
                   </div>
@@ -557,7 +558,7 @@ export default function App() {
                     <div className="relative rounded-3xl overflow-hidden shadow-xl border border-slate-100 bg-white">
                       <div className="aspect-[4/3] md:aspect-[16/10] lg:aspect-[4/5] relative bg-slate-100">
                         <img 
-                          src="https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&q=80&w=600" 
+                          src={ambassadorTeam} 
                           alt="Equipe de Atendimento Pinheirinho Celulares" 
                           className="w-full h-full object-cover object-top filter contrast-105"
                           referrerPolicy="no-referrer"
